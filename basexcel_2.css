@@ -1,0 +1,248 @@
+
+body {
+	 margin:auto;
+	 padding:0.8em;
+	 background-color:#d6d6c2;
+	background-size: cover;
+	font-family: calibri;
+}
+
+
+#logoo {position:absolute;
+	   left:120px;
+	   top:20px;
+	   background-color:;
+	   color:auto;
+	    }
+
+	
+#first {position:absolute;
+		top:20px;
+	   left:250px;;
+	   border:3px solid #ff6600;
+	   border-radius:15px;
+	   background-color: #ff6600;
+	   color:white;
+	   padding-bottom:1%;
+	   padding-right:2%;
+	   padding-left:2%;
+	   text-align:center;
+	   width:auto;}
+	   
+#second {position:absolute;
+		top:55px;
+	   left:17px;
+	   background-color: #ff6600;
+	   border:3px solid #ff6600;
+	   border-bottom-right-radius:15px;
+		border-bottom-left-radius:15px;
+	   color:white;
+	   padding-bottom:1%;
+	   padding-right:1%;
+	   padding-left:1%;
+      text-align:center;
+	  width:auto;}
+	   
+#third{position:absolute;
+       top:90px;
+	   left:102px;
+	   }
+	   
+#nav{
+	background-color:#ff6600;
+	border-radius:15px;
+}
+
+#nav_wrapper{
+	width: 1128px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	}
+#nav ul li{
+	display: inline-block;
+	background-color: #ff6600;
+}
+#nav ul li a, visited{
+	color: white;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	text-decoration: none;
+}
+#nav ul li:hover ul{
+	display:block;
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	background: #ff6600;
+	border: 1px solid white;
+	border-top:0;
+	margin-left: -5px;
+	min-width: 100px;
+	text-align:left;
+	color:white;
+}
+#nav ul ul li{
+	display: block;
+	
+}
+#nav ul ul li a,visited{
+	color:white;
+}
+#nav ul ul li a:hover{
+	color: orange;
+	background-color:green;
+}
+	
+a:link{color:white; text-decoration:none;}
+a:visited{color:white;}
+a:hover{color:#99e699;
+		font:bold;}
+
+#login {position:absolute;
+	   background-color:#ff6600;
+	   color:white;
+	   top:21px;
+	   left:940px;
+	   border:5px solid #ff6600;
+	   border-radius:6px;
+	   width:84px;}
+	   
+#signup {position:absolute;
+	    background-color:#ff6600;
+	    color:white;
+		border:5px solid #ff6600;
+	    border-radius:6px;
+	    top:21px;
+	    left:1060px;
+		width:133px;}
+	   
+#social1 {position:absolute;
+		left:951px;
+		top:75px;
+			 box-sizing: border-box;}
+		
+#social2 {position:absolute;
+		left:985px;
+		top:75px;
+			 box-sizing: border-box;}
+		
+#social3 {position:absolute;
+		left:1019px;
+		top:75px;
+			 box-sizing: border-box;}
+
+#social4 {position:absolute;
+		left:1053px;
+		top:75px;
+			 box-sizing: border-box;}
+
+#social5 {position:absolute;
+		left:1087px;
+		top:75px;
+			 box-sizing: border-box;}	
+
+#social6 {position:absolute;
+		left:1121px;
+		top:75px;
+			 box-sizing: border-box;}
+
+#social7 {position:absolute;
+		left:1155px;
+		top:75px;}
+		
+.services{position:absolute; 
+		 background-color:#ff6600; 
+		 color:white; 
+		 top:230px;
+		 left:340px; 
+		 border:20px solid #ff6600; 
+		border-radius:15px;
+		width:600px;
+		float:left; 
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+	
+.bottom-training{position:absolute;
+				top:1170px;
+				 
+		}
+				
+.about{position:absolute;
+	   background-color:#ff6600;
+	   color:white; 
+	   top:230px; 
+	   left:340px;
+	   border:20px solid #ff6600; 
+	   border-radius:15px;
+	   float:left;
+	   width:600px;
+	   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+	
+.bottom-about{position:absolute;
+			 top:1440px;
+			 }	
+		
+#bottom {position:absolute;
+		left:99px;
+		background-color:black;
+		color:white;
+		border:3px solid black;
+		width: 1133px;
+		padding-top:100px;}
+		
+.bottom-projects{position:absolute;
+				 top:1030px;}
+				
+.f-consulting{position:absolute;
+			  top:1280px;
+			   }			
+				
+.f-software{position:absolute;
+			  top:940px;
+			  }				
+				
+.contact{position:absolute;
+		 top:250px;
+		 left:250px;
+		 background-color:#ff6600;
+		 color:white;
+		 border:30px solid #ff6600;
+		 border-radius:15px;}
+		 
+.f-contact{position:absolute; 
+	      top:730px;}
+
+.construction{position:absolute;
+		 top:250px;
+		 left:100px;
+		 color:white;}
+
+.address{position:absolute;
+		 top:250px;
+		 left:800px;
+	     background-color:#ff6600;
+		 color:white;
+		 border:30px solid #ff6600;
+		 border-radius:15px;}
+
+.whatsapp{position:absolute;
+		 top:250px;
+		 left:250px;
+		 color:white;}
+		 
+				
+				
+				
+				
+				
+				
